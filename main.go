@@ -27,8 +27,8 @@ var (
 
 // Mondodb Entity
 type MondodbEntity struct {
-	ID      int64 `bson:"id" json:"id"`
-	Simhash int64 `bson:"simhash" json:"simhash"`
+	ID      int64  `bson:"id" json:"id"`
+	Simhash uint64 `bson:"simhash" json:"simhash"`
 }
 
 func main() {
